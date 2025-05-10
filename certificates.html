@@ -206,6 +206,56 @@
           <h5 class="card-title">พี่สอนน้องทำ KMITL</h5>
         </div>
       </div>
+      <div class="card">
+        <img src="./image/ITCamp21.jpg" class="card-img-top" alt="ITCamp21" />
+        <div class="card-body">
+          <h5 class="card-title">ITCamp21</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./image/ITClash.jpg" class="card-img-top" alt="ITClash" />
+        <div class="card-body">
+          <h5 class="card-title">ITClash</h5>
+        </div>
+      </div>
     </section>
+
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0 shadow-none">
+          <div class="modal-body text-center p-0">
+            <img id="modalImage" src="" class="img-fluid rounded" />
+            <p id="modalCaption" class="text-white fw-semibold mt-2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll(".card").forEach((card) => {
+        const img = card.querySelector(".card-img-top");
+        const title = card.querySelector(".card-title");
+
+        if (img && title) {
+          img.style.cursor = "pointer";
+          img.addEventListener("click", () => {
+            const modalImg = document.getElementById("modalImage");
+            const modalCaption = document.getElementById("modalCaption");
+
+            modalImg.src = img.src;
+            modalCaption.textContent = title.textContent;
+
+            modalCaption.style.animation = "none";
+            void modalCaption.offsetWidth;
+            modalCaption.style.animation = "";
+
+            const modal = new bootstrap.Modal(
+              document.getElementById("imageModal")
+            );
+            modal.show();
+          });
+        }
+      });
+    </script>
   </body>
 </html>
