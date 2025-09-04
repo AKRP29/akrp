@@ -51,9 +51,29 @@ const Certificates = () => {
       title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
     },
     {
-      image: "/image/SPUBasicFix.png",
+      image: "/image/K-ENG-World-Tour-And-Workshop-2025.png",
       title:
-        "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure (Basic Cybersecurity)",
+        "K-Engineering World Tour and Workshop 2025",
+    },
+    {
+      image: "/image/AI-Cybersecurity.jpg",
+      title:
+        "ปัญญาประดิษฐ์พื้นฐานร่วมกับข้อมูลด้านความมั่นคงปลอดภัยทางไซเบอร์",
+    },
+    {
+      image: "/image/AI-Future.jpg",
+      title:
+        "เสวนา AI และอนาคตของวิศวกรรมและวิทยาศาสตร์",
+    },
+    {
+      image: "/image/IoT-Electronics.jpg",
+      title:
+        "สนุกกับ IoT และเซ็นเซอร์อิเล็กทรอนิกส์",
+    },
+    {
+      image: "/image/LLM & RAG Workshop AI n8n.jpg",
+      title:
+        "LLM & RAG Workshop: สร้าง AI ผู้ช่วยจากเอกสารด้วย n8n",
     },
   ];
 
