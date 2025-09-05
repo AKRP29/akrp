@@ -34,6 +34,18 @@ const Activities = () => {
       description: "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย",
     },
     {
+      image: "/image/ITCamp21_Infra-4.jpg",
+      title:
+        "ITCAMP 21",
+      description: "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
+    },
+    {
+      image: "/image/ITCamp21_Infra-12.jpg",
+      title:
+        "ITCAMP 21",
+      description: "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
+    },
+    {
       image: "/image/46ict_stem2.jpg",
       title: "46ICT",
       description:

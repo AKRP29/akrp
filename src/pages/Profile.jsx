@@ -61,7 +61,7 @@ const Profile = () => {
               {[
                 "Computer Programming",
                 "Video Editing",
-                "Network Engineering",
+                "CTF Red Team",
               ].map((talent, index) => (
                 <li key={index} className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
