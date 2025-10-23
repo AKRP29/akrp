@@ -63,8 +63,12 @@ const Certificates = () => {
       title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
     },
     {
-      image: "/image/SPUBasic.png",
+      image: "/image/SPUBasicFix.png",
       title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
+    },
+    {
+      image: "/image/ITLadkrabang-Openhouse.jpg",
+      title: "ITLadkrabang Openhouse 2023",
     },
     {
       image: "/image/K-ENG-World-Tour-And-Workshop-2025.png",
