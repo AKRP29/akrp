@@ -4,41 +4,48 @@ const Rewards = () => {
   const rewards = [
     {
       id: 1,
+      image: "/image/46ictweb.jpg",
+      title: "1st Place | 46ICT 2025",
+      place: "1st",
+      color: "text-yellow-600 bg-yellow-100",
+    },
+    {
+      id: 2,
       image: "/image/ICCamp2D.jpg",
       title: "1st Place | ICTP Camp 2023",
       place: "1st",
       color: "text-yellow-600 bg-yellow-100",
     },
     {
-      id: 2,
+      id: 3,
       image: "/image/AutoRobot.jpg",
       title: "2nd Place | Automatic Robot Camp 2024",
       place: "2nd",
       color: "text-gray-600 bg-gray-100",
     },
     {
-      id: 3,
+      id: 4,
       image: "/image/46ictReward.jpg",
       title: "5th Place | 46ICT",
       place: "5th",
       color: "text-orange-600 bg-orange-100",
     },
     {
-      id: 4,
+      id: 5,
       image: "/image/Silapa70no8.jpg",
       title: "8th Place | Silapa 2022",
       place: "8th",
       color: "text-purple-600 bg-purple-100",
     },
     {
-      id: 5,
+      id: 6,
       image: "/image/ITClashGroup.jpg",
       title: "8th Place | ITClash",
       place: "8th",
       color: "text-purple-600 bg-purple-100",
     },
     {
-      id: 6,
+      id: 7,
       image: "/image/SPUminihack.jpg",
       title:
         "45th Place | SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
@@ -90,34 +97,69 @@ const Rewards = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {rewards.map((reward, index) => (
-          <div key={reward.id} className="group">
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden card-hover h-full">
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <img
-                  src={reward.image}
-                  alt={reward.title}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+        {rewards.map((reward) => {
+          const cardContent = (
+            <div className="group">
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden card-hover h-full">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src={reward.image}
+                    alt={reward.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
 
-                <div className="absolute top-4 left-4">
-                  <div
-                    className={`inline-flex items-center space-x-2 px-3 py-2 rounded-full font-semibold text-sm ${reward.color}`}
-                  >
-                    {getPlaceIcon(reward.place)}
-                    <span>{reward.place} Place</span>
+                  <div className="absolute top-4 left-4">
+                    <div
+                      className={`inline-flex items-center space-x-2 px-3 py-2 rounded-full font-semibold text-sm ${reward.color}`}
+                    >
+                      {getPlaceIcon(reward.place)}
+                      <span>{reward.place} Place</span>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="p-6">
-                <h3 className="text-xl font-kanit font-semibold text-gray-800 text-center group-hover:text-blue-600 transition-colors duration-200">
-                  {reward.title}
-                </h3>
+                <div className="p-6">
+                  <h3 className="text-xl font-kanit font-semibold text-gray-800 text-center group-hover:text-blue-600 transition-colors duration-200">
+                    {reward.title}
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+
+          // specific external links for id 1 and 5
+          if (reward.id === 1) {
+            return (
+              <a
+                key={reward.id}
+                href="https://46ict.vichakan.net/web68/result/local/web68_comp-55.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+                aria-label={reward.title}
+              >
+                {cardContent}
+              </a>
+            );
+          }
+
+          if (reward.id === 5) {
+            return (
+              <a
+                key={reward.id}
+                href="https://central70.sillapa.net/sm-central/result/local/sm-central_comp-627.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+                aria-label={reward.title}
+              >
+                {cardContent}
+              </a>
+            );
+          }
+
+          return <div key={reward.id}>{cardContent}</div>;
+        })}
       </div>
     </div>
   );

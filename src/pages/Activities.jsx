@@ -10,58 +10,21 @@ const Activities = () => {
 
   const activities = [
     {
-      image: "/image/ITClashAC1.jpg",
-      title: "ITClash",
-      description:
-        "การแข่งขันทักษะการเขียนโปรแกรมความมั่นคงปลอดภัยทางไซเบอร์ (Cyber Track)",
-    },
-    {
-      image: "/image/SPUminihack.jpg",
-      title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
-      description:
-        "ภารกิจแก้หรือเติมโค้ดให้เป๊ะเวอร์ โดยมีคู่หูสุดฉลาดอย่าง Generative AI คอยกระซิบไอเดียเจ๋ง ๆ โค้ดไม่ครบ? ไม่เป็นไร AI จัดให้",
-    },
-    {
-      image: "/image/nsc-bab-group.jpg",
-      title:
-        "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย คร้ังที่ 27: NSC 2025",
-      description: "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย",
-    },
-    {
-      image: "/image/nsc-bab-solo.jpg",
-      title:
-        "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย คร้ังที่ 27: NSC 2025",
-      description: "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย",
+      image: "/image/K-Engineer-WorldTour.jpg",
+      title: "K-Engineering World Tour and Workshop",
+      description: "งานเปิดบ้านวิศวลาดกระบัง",
     },
     {
       image: "/image/ITCamp21_Infra-4.jpg",
-      title:
-        "ITCAMP 21",
-      description: "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
+      title: "ITCAMP 21",
+      description:
+        "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
     },
     {
       image: "/image/ITCamp21_Infra-12.jpg",
-      title:
-        "ITCAMP 21",
-      description: "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
-    },
-    {
-      image: "/image/46ict_stem2.jpg",
-      title: "46ICT",
+      title: "ITCAMP 21",
       description:
-        "กิจกรรม การแข่งขันโครงงานสะเต็มศึกษาและกลองสมองกล (STEM & microcontroller Project) นำเสนอภาษาไทย",
-    },
-    {
-      image: "/image/IC2023AC1.jpg",
-      title: "ICTP Com Camp 2023",
-      description:
-        "ค่ายคอมพิวเตอร์ห้องเรียนพิเศษ ICTP ระดับชั้น ม.ต้น ประจำปีการศึกษา 2566",
-    },
-    {
-      image: "/image/IC2023AC2.jpg",
-      title: "ICTP Com Camp 2023",
-      description:
-        "ค่ายคอมพิวเตอร์ห้องเรียนพิเศษ ICTP ระดับชั้น ม.ต้น ประจำปีการศึกษา 2566",
+        "ค่ายที่ทำให้รู้ผมจักกับคณะไอทีลาดกระบัง เรียนรู้เนื้อหาพื้นฐานของไอที",
     },
     {
       image: "/image/IC2023AC3.jpg",
@@ -82,6 +45,18 @@ const Activities = () => {
         "ค่ายคอมพิวเตอร์ห้องเรียนพิเศษ ICTP ระดับชั้น ม.ต้น ประจำปีการศึกษา 2566",
     },
     {
+      image: "/image/ICTP-ComCamp2024-3.jpg",
+      title: "ICTP Com Camp 2024",
+      description:
+        "ค่ายคอมพิวเตอร์ห้องเรียนพิเศษ ICTP ระดับชั้น ม.ต้น ประจำปีการศึกษา 2567",
+    },
+    {
+      image: "/image/ICTP-ComCamp2024-4.jpg",
+      title: "ICTP Com Camp 2024",
+      description:
+        "ค่ายคอมพิวเตอร์ห้องเรียนพิเศษ ICTP ระดับชั้น ม.ต้น ประจำปีการศึกษา 2567",
+    },
+    {
       image: "/image/AutoRobotAc.jpg",
       title: "Automatic Robot Camp 2024",
       description:
@@ -92,6 +67,26 @@ const Activities = () => {
       title: "Automatic Robot Camp 2024",
       description:
         "กิจกรรมค่ายพัฒนาอัจฉริยภาพหุ่นยนต์อัตโนมัติ Automatic Robot Camp 2024",
+    },
+    {
+      image: "/image/Basic-Robot-Camp2023-1.jpg",
+      title: "BASIC-ROBOT CAMP 2023",
+      description: "การอบรมเชิงปฏิบัติการค่ายทักษะพื้นฐาน ด้านวิศวกรรมหุ่นยนต์",
+    },
+    {
+      image: "/image/Basic-Robot-Camp2023-2.jpg",
+      title: "BASIC-ROBOT CAMP 2023",
+      description: "การอบรมเชิงปฏิบัติการค่ายทักษะพื้นฐาน ด้านวิศวกรรมหุ่นยนต์",
+    },
+    {
+      image: "/image/Basic-Robot-Camp2024-1.jpg",
+      title: "BASIC ROBOT CAMP 2024",
+      description: "การอบรมเชิงปฏิบัติการค่ายทักษะพื้นฐาน ด้านวิศวกรรมหุ่นยนต์",
+    },
+    {
+      image: "/image/Basic-Robot-Camp2024-5.jpg",
+      title: "BASIC ROBOT CAMP 2024",
+      description: "การอบรมเชิงปฏิบัติการค่ายทักษะพื้นฐาน ด้านวิศวกรรมหุ่นยนต์",
     },
     {
       image: "/image/AutoRobotAc3.jpg",

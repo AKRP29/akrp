@@ -16,10 +16,10 @@ const Hobbies = () => {
     {
       id: 2,
       title: "Listening to music",
-      image: "/image/kingsize.jpg",
+      image: "/image/DefMaybe.jpg",
       description:
         "Enjoying various genres of music, especially while working or relaxing.",
-      link: "https://music.apple.com/th/album/%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%98%E0%B8%AD/1792884579?i=1792884892",
+      link: "https://music.youtube.com/playlist?list=OLAK5uy_m--RCG58SjXLvgRiw0pASnMY6YjE8q3NU&si=-pKfEzPUyq1z-zSC",
     },
   ];
 
@@ -143,11 +143,8 @@ const Hobbies = () => {
                 Music
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Music is my constant companion whether I'm coding, relaxing, or
-                even working. I enjoy listening to various genres and find that
-                it helps me stay focused and inspired throughout my different
-                projects. When it comes to Thai rock music, I'm particularly
-                fond of the band "Silly Fools."
+                I enjoy listening to various genres and find that it helps me
+                stay focused and inspired throughout my different projects.
               </p>
             </div>
           </div>

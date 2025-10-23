@@ -7,6 +7,10 @@ const Certificates = () => {
 
   const certificates = [
     {
+      image: "/image/NSC2025.jpg",
+      title: "The 27th National Software Contest: NSC 2025",
+    },
+    {
       image: "/image/001-6601141_เด็กชายอานันท์กร ร่มพฤกษ์_page-0001.jpg",
       title: "Stem Learn & Play",
     },
@@ -19,6 +23,10 @@ const Certificates = () => {
       title: "Basic Robot Camp 2023",
     },
     {
+      image: "/image/Basic-Robot-Camp2024.jpg",
+      title: "Basic Robot Camp 2024",
+    },
+    {
       image: "/image/001-6701627 นายอานันท์กร  ร่มพฤกษ์_page-0001.jpg",
       title: "ICTP Com Camp 2023",
     },
@@ -27,8 +35,12 @@ const Certificates = () => {
       title: "ICTP Com Camp 2023",
     },
     {
-      image: "/image/001-6702061 นายอานันท์กร ร่มพฤกษ์_page-0001.jpg",
-      title: "Basic Robot Camp 2024",
+      image: "/image/ICTP-ComCamp2024.jpg",
+      title: "ICTP Com Camp 2024",
+    },
+    {
+      image: "/image/ICTP-ComCamp2024Robot.jpg",
+      title: "ICTP Com Camp 2024",
     },
     {
       image: "/image/CCI_000001.jpg",
@@ -48,6 +60,10 @@ const Certificates = () => {
     },
     {
       image: "/image/spuminihack.png",
+      title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
+    },
+    {
+      image: "/image/SPUBasic.png",
       title: "SPU AI Prompt Mini Hackathon 2025 : Prompt Quest Adventure",
     },
     {
